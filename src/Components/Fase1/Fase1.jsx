@@ -345,11 +345,43 @@ const Fase1 = (props) => {
             </div>
           </div>
           {/* segunda fase*/}
-          <div class="glowing-circle">
-            <h1>
-              {props.title}
-            </h1>
+          <div className="col-12 col-md-6 p-4">
+            <div className="card mb-2">
+              <div className="card-body">
+                <h5 className="card-title">Francis HausksBee</h5>
+                <p className="card-text">
+                  Francis Hauksbee era filho do draper e conselheiro comum Richard Hauksbee e sua esposa Mary. Ele foi batizado em 27 de maio de 1660 na paróquia de St Mary-at-the-Walls, Colchester.
+                </p>
+                <button type="button" className="btn">
+                  <strong>
+                    <span>
+                      Biografia
+                      <a href="https://en.wikipedia.org/wiki/Francis_Hauksbee" target="_blank" rel="noreferrer">
+                        <i className="fas fa-play"></i>
+                      </a>
+
+                    </span>
+                  </strong>
+                  <div id="container-stars">
+                    <div id="stars"></div>
+                  </div>
+
+                  <div id="glow">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                  </div>
+                </button>
+              </div>
+            </div>
           </div>
+          <div className="middle">
+            <div class="glowing-circle">
+              <h1>
+                {props.title}
+              </h1>
+            </div>
+          </div>
+
           <div className="col-12 col-md-6 p-4">
             <div className="card">
               <div className="card-body">
