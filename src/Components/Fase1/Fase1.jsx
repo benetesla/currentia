@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
 import './Fase1.css'
-const Fase1 = () => {
+const Fase1 = (props) => {
   return (
     <>
 
@@ -344,11 +344,48 @@ const Fase1 = () => {
               </div>
             </div>
           </div>
-          {/* segunda fase*/}          
+          {/* segunda fase*/}
           <div class="glowing-circle">
             <h1>
-              SEGUNDA ERA
+              {props.title}
             </h1>
+          </div>
+          <div className="col-12 col-md-6 p-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">
+                  NIKOLA TESLA
+                </h5>
+                <p className="card-text">
+                  Nikola Tesla (em sérvio: Никола Тесла;
+                  pronunciação sérvia: [nǐkola têsla];
+                  Smiljan, Império Austríaco, 10 de julho de 1856 — Nova Iorque,
+                  7 de janeiro de 1943) foi um inventor, engenheiro
+                  eletrotécnico e engenheiro mecânico sérvio, mais conhecido por
+                  suas contribuições ao projeto do moderno sistema de
+                  fornecimento de eletricidade em corrente alternada (CA).
+                </p>
+                <button type="button" className="btn">
+                  <strong>
+                    <span>
+                      Biografia
+                      <a href="https://pt.wikipedia.org/wiki/Nikola_Tesla" target="_blank" rel="noreferrer">
+                        <i className="fas fa-play"></i>
+                      </a>
+
+                    </span>
+                  </strong>
+                  <div id="container-stars">
+                    <div id="stars"></div>
+                  </div>
+
+                  <div id="glow">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                  </div>
+                </button>
+              </div>
+            </div>
           </div>
 
 
