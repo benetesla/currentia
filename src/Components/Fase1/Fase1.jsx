@@ -4,8 +4,9 @@ import './Fase1.css'
 const Fase1 = () => {
   return (
     <>
-      <Navbar />
+     
       <div className="container">
+      <Navbar />
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="card mb-2">
