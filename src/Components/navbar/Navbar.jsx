@@ -29,17 +29,7 @@ const Navbar = () => {
                     A Faisca   <i className="fas fa-bolt"></i>
                   </Link>
                 </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-white" href="#">
-                  A Corrente <i className="fas fa-bolt"></i>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-white" href="#">
-                  A era Moderna <i className="fas fa-bolt"></i>
-                </a>
-              </li>
+              </li>             
               <li className="nav-item dropdown">
                 <a className="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Cards <i className="fas fa-bolt"></i>

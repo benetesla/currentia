@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
 }
 
 .card {
@@ -23,8 +23,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 13rem;
-    height: 3rem;
+    width: 15rem;
+    height: 5rem;
     background-size: 300% 300%;
     backdrop-filter: blur(1rem);
     border-radius: 5rem;
@@ -204,6 +204,7 @@ strong {
     margin: 20px;
     margin-top: 5rem;
 }
+
 .card-title {
     font-family: 'Avalors Personal Use';
     font-size: 30px;
@@ -212,8 +213,9 @@ strong {
     text-shadow: 0 0 4px white;
     text-align: center;
 }
-.card-text{    
-    font-size:15px;
+
+.card-text {
+    font-size: 15px;
     letter-spacing: 5px;
     color: #080808;
     text-shadow: 0 0 4px white;
@@ -221,34 +223,84 @@ strong {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 800;
 }
+
 .card:hover {
     transform: scale(1.1);
-    
+
 }
+
+.glowing-circle {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: hsla(0, 0%, 100%, 0.1);
+    -webkit-animation: glowing 1s ease-in-out infinite alternate;
+    -moz-animation: glowing 1s ease-in-out infinite alternate;
+    animation: glowing 1s ease-in-out infinite alternate;
+}
+.glowing-circle h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0 0 10px #fff;
+}
+
+@keyframes glowing {
+    from {
+        box-shadow:
+            0 0 10px #5c2f2f,
+            0 0 20px #cf0d0d,
+            0 0 30px #f0f,
+            0 0 40px #0ff,
+            0 0 50px #e60073,
+            0 0 60px #e60073,
+            0 0 70px #e60073;
+    }
+
+    to {
+        box-shadow:
+            0 0 20px #fff,
+            0 0 30px #ff4da6,
+            0 0 40px #ff4da6,
+            0 0 50px #ff4da6,
+            0 0 60px #ff4da6,
+            0 0 70px #ff4da6,
+            0 0 80px #ff4da6;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .container {
-        flex-direction: column;     
+        flex-direction: column;
 
     }
+
     .card {
         width: 100%;
         margin: 0;
         margin-top: 5rem;
-        
+        padding: 15px 15px 5px 5px;
+
     }
-    .card:hover {
-        transform: scale(1.2);
-       
-    }
+
     .card-title {
-        font-size: 15px;
+        font-size: 25px;
         letter-spacing: 2px;
         color: #FFFFFF;
-        text-shadow: 0 0 4px white;
+        text-shadow: 0 0 14px rgb(253, 119, 9);
         text-align: center;
     }
-    .card-text{    
-        font-size:10px;
+
+    .card-text {
+        font-size: 25px;
         letter-spacing: 2px;
         padding: 5px;
         color: #080808;
@@ -256,10 +308,16 @@ strong {
         text-align: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: 800;
-}
-    .btn{
-        width: 100%;
-        margin: 0;
-        margin-top: 5rem;
+    }
+
+
+
+    .btn {
+        width: 250px;
+        height: 50px;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
     }
 }
