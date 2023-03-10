@@ -379,6 +379,7 @@ const Fase1 = (props) => {
               <h1>
                 {props.title}
               </h1>
+
             </div>
           </div>
 
@@ -386,22 +387,26 @@ const Fase1 = (props) => {
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title">
-                  NIKOLA TESLA
+                  Michael Faraday
                 </h5>
                 <p className="card-text">
-                  Nikola Tesla (em sérvio: Никола Тесла;
-                  pronunciação sérvia: [nǐkola têsla];
-                  Smiljan, Império Austríaco, 10 de julho de 1856 — Nova Iorque,
-                  7 de janeiro de 1943) foi um inventor, engenheiro
-                  eletrotécnico e engenheiro mecânico sérvio, mais conhecido por
-                  suas contribuições ao projeto do moderno sistema de
-                  fornecimento de eletricidade em corrente alternada (CA).
+                  Michael Faraday (Newington Butts, 22 de
+                  setembro de 1791 — Richmond upon Thames,
+                  25 de agosto de 1867) foi um físico e químico
+                  britânico que atuou com fortes contribuições
+                  para os estudos do eletromagnetismo e eletroquímica
+                  . Suas descobertas englobam os princípios básicos
+                  da indução eletromagnética, diamagnetismo e eletrólise
+                  . É considerado um dos cientistas mais
+                  influentes de todos os tempos. Além disso,
+                  Faraday fez também diversas outras
+                  contribuições muito importantes na física e na química.
                 </p>
                 <button type="button" className="btn">
                   <strong>
                     <span>
                       Biografia
-                      <a href="https://pt.wikipedia.org/wiki/Nikola_Tesla" target="_blank" rel="noreferrer">
+                      <a href="https://pt.wikipedia.org/wiki/Michael_Faraday" target="_blank" rel="noreferrer">
                         <i className="fas fa-play"></i>
                       </a>
 
@@ -419,6 +424,93 @@ const Fase1 = (props) => {
               </div>
             </div>
           </div>
+          <div className="col-12 col-md-6 p-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">
+                  William Sturgeon
+                </h5>
+                <p className="card-text">
+                  Um eletroímã é um dispositivo no qual
+                  um campo magnético é produzido por
+                  uma corrente elétrica.
+                  O engenheiro elétrico britânico
+                  William Sturgeon, um ex-soldado que começou a se interessar pelas ciências aos
+                  37 anos, inventou o eletroímã em 1825.
+                  O dispositivo de Sturgeon surgiu apenas cinco anos depois que
+                  um cientista dinamarquês descobriu que a eletricidade emite ondas magnéticas .
+                  Sturgeon aproveitou essa ideia e
+                  demonstrou conclusivamente que quanto mais forte a corrente elétrica,
+                  mais forte a força magnética.
+                </p>
+
+                <button type="button" className="btn">
+                  <strong>
+                    <span>
+                      Biografia
+                      <a href="https://www.greelane.com/pt/humanidades/hist%C3%B3ria--cultura/who-invented-the-electromagnet-1991678/" target="_blank" rel="noreferrer">
+                        <i className="fas fa-play"></i>
+                      </a>
+
+                    </span>
+                  </strong>
+                  <div id="container-stars">
+                    <div id="stars"></div>
+                  </div>
+
+                  <div id="glow">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 p-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">
+                  Samuel Morse
+                </h5>
+                <p className="card-text">
+                  Samuel Finley Breese Morse (Charlestown, 27 de abril de
+                  1791 — Nova Iorque, 2 de abril de 1872)
+                  foi um inventor, físico e pintor[4][5] de
+                  retratos e cenas históricas estadunidense.
+                  Tornou-se mundialmente célebre pela suas invenções:
+                  o código Morse e o telégrafo com fios, em 1844.
+
+
+                  Era filho de um pastor protestante
+                  chamado Jedidiah Morse e
+                  de Breese Elizabeth, de Nova Jersey,
+                  numa família com grandes tradições
+                  puritanas
+                </p>
+
+                <button type="button" className="btn">
+                  <strong>
+                    <span>
+                      Biografia
+                      <a href="https://pt.wikipedia.org/wiki/Samuel_Morse" target="_blank" rel="noreferrer">
+                        <i className="fas fa-play"></i>
+                      </a>
+
+                    </span>
+                  </strong>
+                  <div id="container-stars">
+                    <div id="stars"></div>
+                  </div>
+
+                  <div id="glow">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+
 
 
         </div>
