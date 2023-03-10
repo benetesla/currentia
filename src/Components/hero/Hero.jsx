@@ -27,12 +27,14 @@ const Hero = () => {
             seu poder de atrair objetos leves como palhas,
              fragmentos de madeira e penas.
           </p>
+          <p className="cards_description">
+            Conheça as  principais mentes por tras da eletricidade!!!
+          </p>
         </div>
       </article>
       <button className="btn1 btn-primary">
-        <a href="/fase1">Saiba mais</a>
+        <a href="/History">Saiba mais</a>
       </button>
-
     </div>
 
   )

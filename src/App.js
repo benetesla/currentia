@@ -3,15 +3,15 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './Section/Home/Home';
 import Fase from './Section/Fases/Fase';
+import Cards from './Section/Cards/Cards';
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/fase1" element={<Fase />} />
-          <Route path="/fase2" element={<Fase />} />
-          <Route path="/fase3" element={<Fase />} />                
+          <Route path="/History" element={<Fase />} />  
+          <Route path="/Cards" element={<Cards />} />                   
         </Routes>
       </BrowserRouter>
     </>

@@ -25,33 +25,19 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link text-white" href="#">
-                  <Link to="/fase1" className="text-white  link">
+                  <Link to="/History" className="text-white  link">
                     A Faisca   <i className="fas fa-bolt"></i>
                   </Link>
                 </a>
-              </li>             
-              <li className="nav-item dropdown">
-                <a className="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Cards <i className="fas fa-bolt"></i>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-white" href="#">
+                  <Link to="/Cards" className="text-white  link">
+                    Timeline <i className="fas fa-bolt"></i>
+                  </Link>
                 </a>
-                <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#">
-                    Cientitas Da Primeira <span className="text-danger">Era</span>
-                    <i className="fas fa-bolt"></i>
-                  </a></li>
-                  <li><a className="dropdown-item" href="#">
-                    Cientitas Da Segunda <span className="text-danger">Era</span>
-                    <i className="fas fa-bolt"></i>
-                  </a></li>
-
-                  <li><a className="dropdown-item" href="#">
-                    Cientitas Da Terceira <span className="text-danger">Era</span>
-                    <i className="fas fa-bolt"></i>
-                  </a></li>
-                </ul>
               </li>
             </ul>
-
           </div>
         </div>
       </nav>

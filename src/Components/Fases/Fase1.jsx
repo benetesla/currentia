@@ -510,6 +510,87 @@ const Fase1 = (props) => {
               </div>
             </div>
           </div>
+          <div className="col-12 col-md-6 p-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">
+                  Thomas Edison
+                </h5>
+                <p className="card-text">
+                  Thomas Alva Edison (Milan, 11 de fevereiro de 1847 — West Orange, 18 de outubro de 1931)
+                  foi um inventor, empresário e industrial estadunidense.
+                  É considerado um dos inventores mais importantes da história,
+                  tendo patenteado 1.093 invenções, das quais 1.093 foram registradas.
+                </p>
+                <button type="button" className="btn">
+                  <strong>
+                    <span>
+                      Biografia
+                      <a href="https://pt.wikipedia.org/wiki/Thomas_Edison" target="_blank" rel="noreferrer">
+                        <i className="fas fa-play"></i>
+                      </a>
+
+                    </span>
+                  </strong>
+                  <div id="container-stars">
+                    <div id="stars"></div>
+                  </div>
+
+                  <div id="glow">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 p-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">
+                  Joseph Swan
+                </h5>
+                <p className="card-text">
+                  Sir Joseph Wilson Swan (Bishopwearmouth,
+                  31 de outubro de 1828 — Warlingham,
+                  27 de maio de 1914) foi um físico e
+                  químico britânico.
+
+                  Famoso pela invenção da lâmpada incandescente,
+                  com a primeira patente em 1878.
+                  Sua casa (em Gateshead) foi a primeira do mundo
+                  a ser iluminada por uma lâmpada incandescente.
+                  Em 1904 Swan recebeu o título de sir do rei
+                  Eduardo VII do Reino Unido, foi laureado com a
+                  Medalha Hughes da Royal Society, e foi membro
+                  honorário da Sociedade Farmacêutica Real da Grã-Bretanha.
+                  Ele já havia recebido a mais alta condecoração da França,
+                  a Légion d'honneur ,
+                  quando visitou uma exposição internacional de Paris
+                  em 1881
+                </p>
+                <button type="button" className="btn">
+                  <strong>
+                    <span>
+                      Biografia
+                      <a href="https://pt.wikipedia.org/wiki/Thomas_Edison" target="_blank" rel="noreferrer">
+                        <i className="fas fa-play"></i>
+                      </a>
+
+                    </span>
+                  </strong>
+                  <div id="container-stars">
+                    <div id="stars"></div>
+                  </div>
+
+                  <div id="glow">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import Fase1 from '../../Components/Fase1/Fase1'
+import Fase1 from '../../Components/Fases/Fase1'
 const Fase = () => {
     return (
         <>
