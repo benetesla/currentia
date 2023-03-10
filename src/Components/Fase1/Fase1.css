@@ -237,10 +237,29 @@ strong {
         
     }
     .card:hover {
-        transform: scale(1);
+        transform: scale(1.2);
+       
     }
-    .card-text{
-        font-size: 10px;
+    .card-title {
+        font-size: 15px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        text-shadow: 0 0 4px white;
+        text-align: center;
+    }
+    .card-text{    
+        font-size:10px;
+        letter-spacing: 2px;
+        padding: 5px;
+        color: #080808;
+        text-shadow: 0 0 4px white;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 800;
+}
+    .btn{
+        width: 100%;
+        margin: 0;
+        margin-top: 5rem;
     }
 }
-    
