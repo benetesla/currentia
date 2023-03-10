@@ -4,9 +4,9 @@ import './Fase1.css'
 const Fase1 = () => {
   return (
     <>
-     
+
       <div className="container">
-      <Navbar />
+        <Navbar />
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="card mb-2">
@@ -79,6 +79,37 @@ const Fase1 = () => {
                     <span>
                       Biografia
                       <a href="https://en.wikipedia.org/wiki/Francis_Hauksbee" target="_blank" rel="noreferrer">
+                        <i className="fas fa-play"></i>
+                      </a>
+
+                    </span>
+                  </strong>
+                  <div id="container-stars">
+                    <div id="stars"></div>
+                  </div>
+
+                  <div id="glow">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">
+                  Stephen Gray
+                </h5>
+                <p className="card-text">
+                  Stephen Gray era um astrônomo inglês, reconhecido principalmente por suas contribuições ao campo da eletricidade. Ele foi o primeiro cientista a experimentar oficialmente sistemas de condução elétrica, a base fundamental para o uso de energia nas sociedades de hoje.
+                </p>
+                <button type="button" className="btn">
+                  <strong>
+                    <span>
+                      Biografia
+                      <a href="https://maestrovirtuale.com/stephen-gray-biografia-e-contribuicoes/" target="_blank" rel="noreferrer">
                         <i className="fas fa-play"></i>
                       </a>
 
