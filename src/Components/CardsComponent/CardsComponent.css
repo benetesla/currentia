@@ -154,6 +154,16 @@
     text-transform: uppercase;
     color: rgb(250, 80, 80);
     text-shadow:15px 15px 15px rgba(0,0,0,0.5);
+    
+    
+}
+.Middle-Content h1{
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(250, 80, 80);
+    text-shadow:15px 15px 15px rgba(0,0,0,0.5);
+    
 }
 
 /* ================ Timeline Media Queries ================ */
