@@ -6,18 +6,18 @@ const Hero = () => {
 
   return (
     <div className="hero">
-      <article className="card">
+      <article className="cards">
         <div className="temporary_text">
           <img src={Eltrici} alt="Eltrici" />
         </div>
-        <div className="card_content">
-          <span className="card_title">
+        <div className="cards_content">
+          <span className="card1_title">
             A História da Eletricidade
           </span>
-          <span className="card_subtitle">
+          <span className="cards_subtitle">
             O começo da eletricidade
             </span>
-          <p className="card_description">
+          <p className="cards_description">
             A História da eletricidade tem
             seu início no século VI a.C., na Grécia Antiga,
             quando o filósofo Thales de Mileto, após descobrir

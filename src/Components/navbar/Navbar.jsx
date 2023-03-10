@@ -17,7 +17,7 @@ const Navbar = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link active text-white" aria-current="page">
-                  <Link to="/" className="text-white">
+                  <Link to="/" className="text-white link">
                     Home <i className="fas fa-bolt"></i>
                   </Link>
 
@@ -25,7 +25,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link text-white" href="#">
-                  <Link to="/fase1" className="text-white">
+                  <Link to="/fase1" className="text-white  link">
                     A Faisca   <i className="fas fa-bolt"></i>
                   </Link>
                 </a>
