@@ -7,6 +7,10 @@
     width: 100%;
     background: #072dd6;
     background-image: url("https://user-images.githubusercontent.com/78994881/224188854-d52ac37b-5953-4c67-b10b-d87b6c79e3f4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .hero .btn {
     margin-top: 20px;
@@ -126,8 +130,8 @@
 
 @media screen and (max-width: 768px) {
     .card {
-        width: 50%;
-        height: 50%;
+        width: 350px;
+        height: 60%;
         margin: 0;
         border-radius: 15px;
     }
