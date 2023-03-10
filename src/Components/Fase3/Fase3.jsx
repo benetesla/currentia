@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Fase = () => {
+const Fase3 = () => {
   return (
     <div>Fase</div>
   )
 }
 
-export default Fase
+export default Fase3

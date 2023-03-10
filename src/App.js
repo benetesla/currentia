@@ -2,16 +2,16 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './Section/Home/Home';
-import History from './Section/History/History';
-import CardsScient from './Section/CardsScient/CardsScientist';
+import Fase from './Section/Fases/Fase';
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/history" element={<History />} />
-          <Route path="/cards" element={<CardsScient />} />
+          <Route path="/fase1" element={<Fase />} />
+          <Route path="/fase2" element={<Fase />} />
+          <Route path="/fase3" element={<Fase />} />                
         </Routes>
       </BrowserRouter>
     </>
