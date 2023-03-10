@@ -6,13 +6,14 @@
     height: 100vh;
     width: 100%;
     background: #072dd6;
+    background-image: url("https://user-images.githubusercontent.com/78994881/224188854-d52ac37b-5953-4c67-b10b-d87b6c79e3f4.png");
 }
 .hero .btn {
     margin-top: 20px;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background: #0a0da3;
+    background: #9b2fe2;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -34,7 +35,7 @@
     width: 450px;
     height: 450px;
     color: #0a0da3;
-    background: #072dd6;
+    background: #802ddf;
     overflow: hidden;
     border-radius: 20px;
     margin: 0 auto;
