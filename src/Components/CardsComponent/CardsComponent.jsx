@@ -24,7 +24,11 @@ const CardsComponent = () => {
                 </li>         
 
             </ul>
-            <h2>Events</h2>
+            <div class="Middle">
+                <div class="Middle-Content">
+                    <h1>A era da invenção</h1>
+                    </div>
+            </div>
 
 
         </>
