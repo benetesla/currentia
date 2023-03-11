@@ -5,7 +5,7 @@ const Fase1 = (props) => {
     <>
 
       <div className="container">
-        
+
         <div className="row">
           <div className="col-12 col-md-6 p-4">
             <div className="card mb-2">
@@ -854,9 +854,75 @@ const Fase1 = (props) => {
               </div>
             </div>
           </div>
+          <div className="col-12 col-md-6 p-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">
 
+                  Heinrich Geissler
+                </h5>
+                <p className="card-text">
+                  Heinrich Geissler (Igelshieb, 26 de maio de 1814 – Bonn, 24 de janeiro de 1879) foi um físico e inventor alemão.
 
+                  Geissler dominava a técnica do assopramento de cristais derretidos e possuía um negócio de fabricação de instrumentos científicos. Em 1857 inventou uma bomba de vácuo sem elementos mecânicos móveis, baseado nos trabalhos de Evangelista Torricelli.
+                </p>
+                <button type="button" className="btn">
+                  <strong>
+                    <span>
+                      Biografia
+                      <a href="https://pt.wikipedia.org/wiki/Heinrich_Geissler" target="_blank" rel="noreferrer">
+                        <i className="fas fa-play"></i>
+                      </a>
 
+                    </span>
+                  </strong>
+                  <div id="container-stars">
+                    <div id="stars"></div>
+                  </div>
+                  <div id="glow">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 p-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">
+                  William Crookes
+                </h5>
+                <p className="card-text">
+                  William Crookes, OM , PRS
+                  (Londres, 17 de junho de 1832 — Londres, 4 de abril de
+                  1919) foi um químico e físico britânico.
+                  Frequentou o Royal College of Chemistry em Londres,
+                  trabalhando em espectroscopia.
+                </p>
+                <button type="button" className="btn">
+                  <strong>
+                    <span>
+                      Biografia
+                      <a href="https://pt.wikipedia.org/wiki/William_Crookes" target="_blank" rel="noreferrer">
+                        <i className="fas fa-play"></i>
+                      </a>
+
+                    </span>
+                  </strong>
+                  <div id="container-stars">
+                    <div id="stars"></div>
+                  </div>
+                  <div id="glow">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
 
 
         </div>

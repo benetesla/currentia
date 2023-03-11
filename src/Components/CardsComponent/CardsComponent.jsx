@@ -3,6 +3,7 @@ import React from 'react'
 import './CardsComponent.css'
 import Cards from '../Events/CardItem1'
 import Cards2 from '../Events/CardItem2'
+import Card3 from '../Events/CardItem3'
 const CardsComponent = () => {
     return (
         <>
@@ -54,6 +55,25 @@ const CardsComponent = () => {
                     <h1>Revelações e Revoluções</h1>
                     </div>
             </div>
+            <ul class="timeline">
+                <li>
+                    {
+                        Card3.map((cardItem) => {
+                            return (
+                                <div class="direction-r">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">{cardItem.title}</span>
+                                        <span class="time-wrapper"><span class="time">{cardItem.ocupation}</span></span>
+                                    </div>
+                                    <div class="desc">{cardItem.Age}</div>
+                                    <div class="desc">{cardItem.Location}</div>
+                                </div>
+                            )
+                        })
+                    }
+                </li>
+            </ul>
+                   
 
         </>
 
