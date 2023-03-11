@@ -49,7 +49,11 @@ const CardsComponent = () => {
                 </li>
             </ul>
 
-
+            <div class="Middle">
+                <div class="Middle-Content">
+                    <h1>Revelações e Revoluções</h1>
+                    </div>
+            </div>
 
         </>
 

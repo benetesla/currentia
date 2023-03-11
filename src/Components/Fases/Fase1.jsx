@@ -1,12 +1,11 @@
 import React from 'react'
-import Navbar from '../navbar/Navbar'
 import './Fase1.css'
 const Fase1 = (props) => {
   return (
     <>
 
       <div className="container">
-        <Navbar />
+        
         <div className="row">
           <div className="col-12 col-md-6 p-4">
             <div className="card mb-2">
@@ -637,9 +636,9 @@ const Fase1 = (props) => {
                   um engenheiro elétrico e inventor americano.
                   Que contribuiu para o desenvolvimento da eletricidade.
                   Ele foi o primeiro a usar a corrente alternada para
-                  transmitir energia elétrica, demonstrando o poder mortal da 
+                  transmitir energia elétrica, demonstrando o poder mortal da
                   corrente alternada.
-                  
+
                   <small>
                     Por favor nao pesquisem a historia dele,a não ser que voce tenha sangue frio.
                   </small>
@@ -667,13 +666,201 @@ const Fase1 = (props) => {
             </div>
           </div>
 
+          <div className="middle">
+            <div class="glowing-circle">
+              <h1>
+                {props.Revelacoes}
+              </h1>
+
+            </div>
+          </div>
+
+          <div className="col-12 col-md-6 p-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">
+                  Oliver Lodge
+                </h5>
+                <p className="card-text">
+
+                  Foi um dos pioneiros da telegrafia sem fio e do rádio.
+                  Em suas palestras na Royal Institution
+                  ("O Trabalho de Hertz e alguns de seus sucessores")
+                  cunhou o termo "coesor" e obteve a patente de "sintonização"
+                  do Escritório de Patentes dos Estados Unidos.
+                </p>
+                <button type="button" className="btn">
+                  <strong>
+                    <span>
+                      Biografia
+                      <a href="https://pt.wikipedia.org/wiki/Oliver_Lodge" target="_blank" rel="noreferrer">
+                        <i className="fas fa-play"></i>
+                      </a>
+
+                    </span>
+                  </strong>
+                  <div id="container-stars">
+                    <div id="stars"></div>
+                  </div>
+                  <div id="glow">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 p-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">
+                  James Clerk Maxwell
+                </h5>
+                <p className="card-text">
+                  James Clerk Maxwell (Edimburgo, 13 de junho de 1831 — Cambridge, 5 de novembro de 1879) foi um físico e matemático escocês. É mais conhecido por ter dado forma final à teoria moderna do eletromagnetismo, que une a eletricidade, o magnetismo e a óptica. Esta é a teoria que surge das equações de Maxwell, assim chamadas em sua honra e porque foi o primeiro a escrevê-las juntando a lei de Ampère, modificada por Maxwell, a lei de Gauss, e a lei da indução de Faraday.
+                </p>
+                <button type="button" className="btn">
+                  <strong>
+                    <span>
+                      Biografia
+                      <a href="https://pt.wikipedia.org/wiki/James_Clerk_Maxwell" target="_blank" rel="noreferrer">
+                        <i className="fas fa-play"></i>
+                      </a>
+
+                    </span>
+                  </strong>
+                  <div id="container-stars">
+                    <div id="stars"></div>
+                  </div>
+                  <div id="glow">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 p-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">
+                  Heinrich Rudolf Hertz
+                </h5>
+                <p className="card-text">
+                  Heinrich Rudolf Hertz (Hamburgo, 22 de fevereiro de 1857 — Bonn, 1 de janeiro de 1894)
+                  foi um físico alemão.
+                  Hertz demonstrou a existência da radiação eletromagnética,
+                  criando aparelhos emissores e detectores de ondas de rádio.
+                  Em sua homenagem a unidade de frequência no
+                  Sistema Internacional de Unidades é denominada hertz
+                  (abreviada como Hz).
+
+                  Hertz pôs em evidência em 1888 a existência das ondas
+                  eletromagnéticas imaginadas por James Maxwell em 1873.
+                </p>
+                <button type="button" className="btn">
+                  <strong>
+                    <span>
+                      Biografia
+                      <a href="https://pt.wikipedia.org/wiki/Heinrich_Hertz" target="_blank" rel="noreferrer">
+                        <i className="fas fa-play"></i>
+                      </a>
+
+                    </span>
+                  </strong>
+                  <div id="container-stars">
+                    <div id="stars"></div>
+                  </div>
+                  <div id="glow">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 p-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">
+                  Guglielmo Marconi
+                </h5>
+                <p className="card-text">
+                  Guglielmo Marconi (Bolonha, 25 de abril de 1874 — Roma,
+                  20 de julho de 1937)
+                  foi um físico e inventor italiano.
+                  É considerado o inventor do rádio,(teve um padre Brasileiro, aqui okay?)
+                  e o primeiro a transmitir uma mensagem de rádio sem fio.
+                </p>
+                <button type="button" className="btn">
+                  <strong>
+                    <span>
+                      Biografia
+                      <a href="https://pt.wikipedia.org/wiki/Guglielmo_Marconi" target="_blank" rel="noreferrer">
+                        <i className="fas fa-play"></i>
+                      </a>
+
+                    </span>
+                  </strong>
+                  <div id="container-stars">
+                    <div id="stars"></div>
+                  </div>
+                  <div id="glow">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 p-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">
+                  Jagadish Chandra Bose
+                </h5>
+                <p className="card-text">
+                  Jagadish Chandra Bose (Calcutá, 30 de novembro de 1858
+                  — Calcutá, 23 de agosto de 1937)
+                  foi um polímata indiano, físico, biólogo, botânico,
+                  químico, engenheiro, inventor, filósofo, escritor,
+                  músico, fotógrafo, eletrotécnico, eletroquímico,
+                  eletromagnetista, eletrofisiologist
+                  e professor universitário.
+                </p>
+                <button type="button" className="btn">
+                  <strong>
+                    <span>
+                      Biografia
+                      <a href="https://pt.wikipedia.org/wiki/Jagadish_Chandra_Bose" target="_blank" rel="noreferrer">
+                        <i className="fas fa-play"></i>
+                      </a>
+
+                    </span>
+                  </strong>
+                  <div id="container-stars">
+                    <div id="stars"></div>
+                  </div>
+                  <div id="glow">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+
+
 
 
         </div>
       </div>
-
-
-
     </>
   )
 }
