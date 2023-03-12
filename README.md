@@ -1,7 +1,7 @@
 
 # Currentia
  Website  sobre as principais mentes  por trás da história da eletricidade.
-
+****
 Primeira parte Home page:
 Nessa primeira parte temos um card contando como a eletricidade se originou na Grécia antiga, através do filósofo grego Tales de Mileto.
 Segunda parte A faísca:
@@ -9,6 +9,7 @@ Nessa parte temos o card de cada cientista e sua respectiva página na wikipédi
 TimeLine Linha do tempo:
 Esse aqui é só um resumo contendo os principais pontos de cada cientista e a sua linha do tempo,nome, ocupação, data de nascimento e morte assim como a sua localização.
 
+****
 
 # Demonstração
 
@@ -23,12 +24,14 @@ Esse aqui é só um resumo contendo os principais pontos de cada cientista e a s
 
 
 ## Stack utilizada
-
+****
 **Front-end:**
 ![Reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![React-router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![sass](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![csss](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+****
+
 ## License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
